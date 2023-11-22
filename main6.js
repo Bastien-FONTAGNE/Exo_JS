@@ -1,9 +1,9 @@
 var MavariableNumérique = parseInt(prompt("écrire un nombre : "));
-var resultat = 0;
+var resultat = 1;
 
-for (var i = 0; i < MavariableNumérique + 1; i++)
+for (var i = 1; i <= MavariableNumérique; i++)
 {
-    resultat += i;
+    resultat *= i;
 }
 
 alert("Le résultat est : " + resultat);
