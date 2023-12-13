@@ -3,7 +3,7 @@ MaDiv.addEventListener("click", test);
 
 function test(evenement) {
     fetch(
-        "http://192.168.64.162/ne_pas_enlever_important/ex11.json",
+        "http://192.168.64.162/ne_pas_enelever_important/ex11.json",
         {method : 'GET'}
         ).then(
             response => response.json()
